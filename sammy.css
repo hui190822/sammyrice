@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    background-color: #E8E3CF;
+}
+
+.header{
+    background-color: #DCC69D;
+    height: 140px;
+    display: flex;
+    
+}
+.header .logo img{
+
+   border-radius: 100px;
+   margin: 10px 20px;
+  
+}
+.header .title h1{
+    font-size: 50px;
+    line-height: 140px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 600;
+    color: #444;
+    
+}
+
+.banner img{
+    width: 100%;
+}
+.menu{
+    text-align: center;
+    border: 3px solid #000000;
+    line-height: 1.5;
+    letter-spacing: 0.3em;
+    margin: 20px 10px;
+    padding: 10px 0;
+}
+
+.menu h2{
+    font-size: 30px;
+    
+}
+.mtxt p{
+    font-size: 28px;
+    
+    
+}
+.mtxt .y1{
+    color: #2BA140;
+    font-weight: 800;
+
+}
+.mtxt .g2{
+    color: #F3BD1F;
+    font-weight: 800;
+}
+
+.ricemain{
+    position: relative;
+}
+
+.ricemain img{
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.main-txt{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main-txt h3{
+    font-size: 26px;
+    color: #F9B400;
+    padding:0px 0px 2px;
+}
+.main-txt p{
+    color: #55453A;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+footer{
+    background-color: #69865E;
+    color: #fff;
+    font-size: 16px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px){
+    .banner img{
+        display: none;
+    }
+  
+    .ricemain img{
+        vertical-align: middle;
+        border-radius: 20px;
+        box-shadow: 5px 5px 20px #2D2019;
+        
+            
+    }
+
+    main{
+        min-height: calc(100vh - 300px);
+       /* 这个200px是header和footer的高度 */
+    
+        }
+    header{
+            height: 140px;
+            line-height: 140px;
+        }
+    footer{
+            height: 80px;
+            line-height: 80px;
+            padding: 0 0;
+        }
+    .wrap{
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 80px;
+            
+        }
+      
+    .menu{
+        height: 400px;
+        padding: 0px 10px;
+       
+    }
+    .menu h2{
+        padding: 20px 0 0px;
+    }
+    .mtxt p{
+        font-size: 24px;
+        padding: 10px 0px;
+    }
+
+    .main-txt h3{
+        font-size: 44px;
+        font-weight: 800;
+       
+    }
+    .main-txt p{
+        font-size: 26px;
+        line-height: 1.5;
+    }
+  
+       
+ 
+
+}
