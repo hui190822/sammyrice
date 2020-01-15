@@ -12,6 +12,7 @@ body{
     background-color: #DCC69D;
     height: 140px;
     display: flex;
+    width: 100%;
     
 }
 .header .logo img{
@@ -46,7 +47,7 @@ body{
     
 }
 .mtxt p{
-    font-size: 28px;
+    font-size: 24px;
     
     
 }
@@ -95,12 +96,34 @@ body{
 footer{
     background-color: #69865E;
     color: #fff;
-    font-size: 16px;
+    font-size: 18px;
     padding: 20px 0;
     text-align: center;
 }
+@media screen and (min-width:768px) and (max-width:1300px){
+    .menu h2{
+        font-size: 42px;
+    }
+    .mtxt p{
+        font-size: 36px;
+        padding: 10px 0px;
+    }
 
-@media screen and (min-width: 768px){
+    .main-txt h3{
+        font-size: 70px;
+        font-weight: 800;
+       
+    }
+    .main-txt p{
+        font-size: 30px;
+        line-height: 1.5;
+    }
+    footer{
+        font-size: 24px;
+    }
+    
+}
+@media screen and (min-width: 1300px){
     .banner img{
         display: none;
     }
@@ -108,8 +131,7 @@ footer{
     .ricemain img{
         vertical-align: middle;
         border-radius: 20px;
-        box-shadow: 5px 5px 20px #2D2019;
-        
+        box-shadow: 5px 5px 20px #2D2019;    
             
     }
 
@@ -153,7 +175,7 @@ footer{
        
     }
     .main-txt p{
-        font-size: 26px;
+        font-size: 22px;
         line-height: 1.5;
     }
   
